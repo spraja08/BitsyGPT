@@ -1,3 +1,14 @@
+#!/usr/bin/env python3  
+# -*- coding: utf-8 -*- 
+#-------------------------------------------------------------------------------------------------------------
+# Created By  : Raja SP   
+# Credits : All the brilliant authors of the attention paper and other pathbreaking papers all the way to 2003
+#           And some of the great teachers on this subject who published awesome but free content
+# version ='1.0'
+# This is an experimental decoder-only, character level transformer that can be trained on laptops.
+# Use train.sh and generate.sh in the scripts directory. The config folder contains the hyperparams
+#-------------------------------------------------------------------------------------------------------------
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
